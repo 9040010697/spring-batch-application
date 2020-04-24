@@ -1,0 +1,21 @@
+spring:
+    application:
+        name: spring-batch-application
+    datasource:
+      url: jdbc:h2:mem:test_db
+      driver-class-name: org.h2.Driver
+      username: sa
+      password: 
+    h2:
+      console:
+        path: /h2-console
+        enabled: true
+    batch:
+      job:
+        enabled: false
+
+app-batch:
+    chunk-size: 1000
+    expiry:
+
+
