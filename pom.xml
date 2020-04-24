@@ -8,7 +8,7 @@
 		<version>2.2.5.RELEASE</version>
 	</parent>
 	<groupId>com.batch</groupId>
-	<artifactId>spring-batch-application</artifactId>
+	<artifactId>spring-batch-application-h2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>identity-data-batch</name>
 	<description>Demo project for Spring Boot</description>
